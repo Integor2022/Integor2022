@@ -1,0 +1,181 @@
+.rectangle {
+    height: 110px;
+    width: 230px;
+    background: url("../img/baykal-service.png");
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+
+  .circle {
+    height: 50px;
+    width: 50px;
+    background: url("../img/circle.jpg");
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    left: 110px;
+    animation-name: circle;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .circle2 {
+    height: 50px;
+    width: 50px;
+    background: url("../img/circle.jpg");
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    left: 265px;
+    animation-name: circle2;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .circle3 {
+    height: 50px;
+    width: 50px;
+    background: url("../img/circle.jpg");
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    left: 336px;
+    animation-name: circle3;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .square {
+    height: 85px;
+    width: 70px;
+    background-color: rgb(22, 45, 122);
+    border-radius: 10%;
+    position: absolute;
+    top: 125px;
+    left: 320px;
+    animation-name: move2;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .square2 {
+    height: 55px;
+    width: 90px;
+    background-color: rgb(22, 45, 122);
+    border-radius: 15%;
+    position: absolute;
+    top: 155px;
+    left: 330px;
+    animation-name: move3;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .square3 {
+    height: 23px;
+    width: 30px;
+    background: url("../img/window.jpg");
+    border-radius: 10%;
+    position: absolute;
+    top: 135px;
+    left: 352px;
+    animation-name: move4;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+  }
+  .animation {
+    animation-name: rotation-circle;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    /* animation-play-state: paused; */
+  }
+  @keyframes move {
+    from {
+      left: 100px;
+    }
+    to {
+      left: 900px;
+    }
+  }
+  @keyframes move2 {
+    from {
+      left: 320px;
+    }
+    to {
+      left: 1120px;
+    }
+  }
+  @keyframes move3 {
+    from {
+      left: 330px;
+    }
+    to {
+      left: 1130px;
+    }
+  }
+  @keyframes move4 {
+    from {
+      left: 352px;
+    }
+    to {
+      left: 1148px;
+    }
+  }
+  @keyframes circle {
+    from {
+      transform: rotate(0deg);
+      left: 110px;
+    }
+    to {
+      transform: rotate(720deg);
+      left: 904px;
+    }
+  }
+  @keyframes circle2 {
+    from {
+      transform: rotate(0deg);
+      left: 265px;
+    }
+    to {
+      left: 1065px;
+      transform: rotate(720deg);
+    }
+  }
+  @keyframes circle3 {
+    from {
+      transform: rotate(0deg);
+      left: 336px;
+      
+    }
+    to {
+      transform: rotate(720deg);
+      left: 1136px;
+    }
+  }
+
